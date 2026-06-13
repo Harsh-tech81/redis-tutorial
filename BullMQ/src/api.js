@@ -26,7 +26,6 @@ app.get("/welcome-email/:id", async (req, res) => {
   res.json({ job });
 });
 
-
 app.listen(3000, () => {
   console.log("The server is starting on the PORT 3000");
 });
